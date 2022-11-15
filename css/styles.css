@@ -342,20 +342,20 @@ template {
   width: auto;
   height: 0;
 }
-.card-img-shadow-mobile {
-  position: relative;
-  display: block;
-  margin: auto;
-  height: auto;
-  top: -180px;
-}
-.card-img-woman-mobile {
+.card-img-woman {
   position: relative;
   width: 75%;
   display: block;
   margin: auto;
   height: auto;
   top: -110px;
+}
+.card-img-shadow-mobile {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: auto;
+  top: -180px;
 }
 
 /* ACCORDION
