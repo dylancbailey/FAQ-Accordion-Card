@@ -6,4 +6,15 @@
     width: 320px;
     height: 520px;
     background-color: white;
+
+    &-img {
+        position: relative;
+
+        &-shadow-mobile {
+            position: relative;
+            top: -80px;
+            right: -40px;
+        }
+    }
 }
+

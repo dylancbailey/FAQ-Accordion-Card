@@ -329,6 +329,14 @@ template {
   height: 520px;
   background-color: white;
 }
+.card-img {
+  position: relative;
+}
+.card-img-shadow-mobile {
+  position: relative;
+  top: -80px;
+  right: -40px;
+}
 
 /* ACCORDION
    ==========================================================================
