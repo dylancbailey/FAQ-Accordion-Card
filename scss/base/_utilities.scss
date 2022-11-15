@@ -1,6 +1,17 @@
 /* UTILITIES
    ==========================================================================
 */
+@use 'colors' as *;
+@use 'typography' as *;
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #6565e7, #7a66e8, #8d66e9, #9f67e9, #af67e9);
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+}
 
 
 .hidden {

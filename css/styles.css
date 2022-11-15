@@ -317,6 +317,15 @@ template {
 /* UTILITIES
    ==========================================================================
 */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top, #6565e7, #7a66e8, #8d66e9, #9f67e9, #af67e9);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .hidden {
   display: none;
 }
@@ -366,13 +375,34 @@ template {
 /* ACCORDION
    ==========================================================================
 */
-body {
-  height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(to top, #6565e7, #7a66e8, #8d66e9, #9f67e9, #af67e9);
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
+.accordion-wrapper {
+  padding: 1.5rem;
+}
+
+.accordion-container {
+  list-style-type: none;
+  padding: 0;
+}
+.accordion-container-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid red;
+}
+.accordion-container-item > * {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-container-item-arrow {
+  color: hsl(14deg, 88%, 65%);
+  transform: rotate(90deg);
+  font-weight: 700;
+}
+
+input[type=radio] {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
