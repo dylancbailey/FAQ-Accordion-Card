@@ -314,13 +314,32 @@ template {
 /* COLORS
    ==========================================================================
 */
+/* ACCORDION
+   ==========================================================================
+*/
+.hidden {
+  display: none;
+}
+
+/* CARD
+   ==========================================================================
+*/
+.card {
+  width: 320px;
+  height: 520px;
+  background-color: white;
+}
+
+/* ACCORDION
+   ==========================================================================
+*/
 body {
+  height: 100vh;
+  width: 100vw;
   background-image: linear-gradient(to top, #6565e7, #7a66e8, #8d66e9, #9f67e9, #af67e9);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
-  height: 100vh;
-  width: 100vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
