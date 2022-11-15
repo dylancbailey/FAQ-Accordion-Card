@@ -1,6 +1,7 @@
 /* CARD
    ==========================================================================
 */
+@use 'utilities' as *;
 
 .card {
     width: 320px;
@@ -13,21 +14,21 @@
         height: 0;
 
         &-woman {
-            position: relative;
+            @include img-centering;
             width: 75%;
-            display: block;
-            margin: auto;
-            height: auto;
             top: -110px;
         }
 
         &-shadow-mobile {
-            position: relative;
-            display: block;
-            margin: auto;
-            height: auto;
+            @include img-centering;
             top: -180px;
         }
+    }
+
+    &-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 9rem;
     }
 }
 

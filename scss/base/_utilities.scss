@@ -1,6 +1,7 @@
-/* ACCORDION
+/* UTILITIES
    ==========================================================================
 */
+
 
 .hidden {
     display: none;
@@ -12,4 +13,12 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
+}
+
+// Mixins
+@mixin img-centering {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: auto;
 }

@@ -314,7 +314,7 @@ template {
 /* COLORS
    ==========================================================================
 */
-/* ACCORDION
+/* UTILITIES
    ==========================================================================
 */
 .hidden {
@@ -344,10 +344,10 @@ template {
 }
 .card-img-woman {
   position: relative;
-  width: 75%;
   display: block;
   margin: auto;
   height: auto;
+  width: 75%;
   top: -110px;
 }
 .card-img-shadow-mobile {
@@ -356,6 +356,11 @@ template {
   margin: auto;
   height: auto;
   top: -180px;
+}
+.card-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 9rem;
 }
 
 /* ACCORDION
