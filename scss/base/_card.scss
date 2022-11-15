@@ -6,14 +6,27 @@
     width: 320px;
     height: 520px;
     background-color: white;
+    border-radius: 20px;
 
     &-img {
-        position: relative;
+        width: auto;
+        height: 0;
 
         &-shadow-mobile {
             position: relative;
-            top: -80px;
-            right: -40px;
+            display: block;
+            margin: auto;
+            height: auto;
+            top: -180px;
+        }
+
+        &-woman-mobile {
+            position: relative;
+            width: 75%;
+            display: block;
+            margin: auto;
+            height: auto;
+            top: -110px;
         }
     }
 }
